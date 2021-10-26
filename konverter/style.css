@@ -1,0 +1,71 @@
+*		{
+		
+}
+
+body	{
+		margin: 15% auto;
+		background-image: url(assets/bodybg.png);
+}
+
+.container	{
+		width: 40%;
+		height: 80%;
+		margin: auto;
+		background-color: #adf0f3;
+		opacity: 80%;
+		border-radius: 50px;
+		overflow: auto;
+}
+table 		{
+		margin: auto;
+		width: 100%;
+		border: none;
+}
+
+.judul	{
+		height: 30px;
+		padding: 10px 15px 20px 15px;
+		background-color: #eede74;
+		text-align: center;
+}
+
+.isi	{
+		padding: 30px 10px;
+		height: 40px;
+}
+
+input	{
+		background-color: none;
+		border-radius: 20px;
+		width: 70%;
+}
+
+.tombolcontainer {
+		text-align: center;
+		height: 40px;
+}
+
+.tombol	{
+		border-radius: 50px;
+		background-color: #eede74;
+}
+
+button :hover{
+		background-color: salmon;
+}
+
+button	{
+
+}
+
+@media (max-width: 768px) {
+	body	{
+		margin: 35% auto;
+}
+
+	.container{
+		width: 80%;
+		height: 40%;
+		margin: 30% auto;
+	}
+}
